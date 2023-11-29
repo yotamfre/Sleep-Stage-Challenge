@@ -1,1 +1,0 @@
-dataPath = "C:\\Users\\yotam\\OneDrive\\מסמכים\\sleep stage challenge data\\"
