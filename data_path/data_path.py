@@ -1,1 +1,1 @@
-dataPath = "C:\\Users\\ashmi\\Documents\\Sleep States Challenge\\Sleep-Stage-Challenge\\"
+dataPath = "C:\\Users\\yotam\\OneDrive\\מסמכים\\sleep stage challenge data\\"
