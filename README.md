@@ -42,6 +42,6 @@ If you would like to see some of the data visualizations used in the development
 
 ![image](https://github.com/yotamfre/Sleep-Stage-Challenge/assets/66326758/97b9b2d6-98b4-436d-8d2a-f17eec4e7278)
 
-The first table is containing the features while the the second table contains the labels. The first step was to merge the 2 tables over step, timestamp and series_ID
+The first table is containing the features while the the second table contains the labels. The first step was to merge the 2 tables over step, timestamp and series_ID using a left merge. For development purposes, `sample_data` can be set to True which would perform the merge for only 10 different people's data.
 
 [^1]: To understand the structure of the dataset, click [here](https://www.kaggle.com/competitions/child-mind-institute-detect-sleep-states/data/).
