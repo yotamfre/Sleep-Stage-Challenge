@@ -31,7 +31,7 @@ The only 2 files that need to be run for the model to work are:
 - `training.ipynb`
 These are all located in the `essential files` folder. You should run all cells in each file in the order of files shown above.
 
-If you would like to see some of the data visualizations used in the development you are free to run files in the `suplumentary files' folder.
+If you would like to see some of the data visualizations used in the development you are free to run files in the `suplumentary files` folder.
 
 ## Development process and scope:
 
