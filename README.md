@@ -53,7 +53,7 @@ These figures demonsttarate that there is a significant change during this inter
 
 In order to fit the data to a model, it had to be cleaned first. First, the begining and end of each different individulas measurments were cut off so that every person had data that divided to a whole number of series'. Then, Labels had to be made. Because the given dataset originated from sleep logs, the exact timestamp of the event is unreliable. Because of this, it would be difficult to constract a model that predicts the exact time when an event occured. Instead, it would be wiser to create a model that predicts weather or not the person is awake for any given timestamp. It was chosen that the labels will have the same dimenstion as the series length with 0's representing an awake state while 1's represented a state of sleep.
 
-####The Model:
+#### The Model:
 The model chosen was an Long Short Term Memory model. This is because LSTM's have a design well suited for timeseries problems like this. However, 24 hours worth of data is too much context for an LSTM to learn on in this case. Because of this it was decided to use a period of 1 hour around a label with the label being at a random spot throughout the series.
 
 ![image](https://github.com/yotamfre/Sleep-Stage-Challenge/assets/66326758/daad0cde-deda-43a5-88ca-80454f47e84b)
